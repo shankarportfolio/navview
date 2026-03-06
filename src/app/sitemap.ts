@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { categories } from "./_lib/categories";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = "https://navviewapp.vercel.app";
+    const baseUrl = "https://navview.vercel.app";
 
     const categoryUrls = categories.map((cat) => ({
         url: `${baseUrl}/categories/${cat.slug}`,
