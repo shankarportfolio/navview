@@ -45,7 +45,7 @@ export const Footer = () =>{
                         <span className={`${plusjakartasans.className} font-sans text-xs font-bold text-black block mt-1.5`}>MF Guide</span>
                     </Link>
                     <Link href="/about" className={`w-[22%] lg:w-[calc(100%/6)] hidden lg:block py-2.5 px-1.5 text-center`}>
-                        <Info width={45} className={`m-auto ${(pathname === "/about" ) ? 'text-(--foreground)' : 'text-black'}`}/>
+                        <Info width={45} className={`m-auto ${pathname === "/about" ? 'text-(--foreground)' : 'text-black'}`}/>
                         <span className={`${plusjakartasans.className} font-sans text-xs font-bold ${pathname === "/about" ? 'text-(--foreground)' : 'text-black'} block mt-1.5`}>About</span>
                     </Link>
                     <div className={`w-[12%] lg:hidden flex items-center flex-col justify-center`} onClick={menuOpenHandler}>
