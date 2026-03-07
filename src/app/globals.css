@@ -63,3 +63,9 @@ body {
 .plan-cards{
     box-shadow: 0 8px 32px -16px rgba(42, 53, 71, .2);
 }
+
+@media screen and (min-height:600px){
+    .mobilesection{
+        height: calc(100vh - 200px) !important;
+    }
+}
