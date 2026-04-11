@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props) {
             title: `${schemeName} | Mutual Fund Details | NavView`,
             description: `Check NAV, returns, portfolio, and fund manager details of ${schemeName}.`,
             alternates: {
-                canonical: `https://yoursite.com/schemes/${schemesId}`,
+                canonical: `https://navview.vercel.app/schemes/${schemesId}`,
             },
         };
     } catch (error) {
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props) {
             title: "Mutual Fund Scheme | NavView",
             description: "View mutual fund scheme details.",
             alternates: {
-                canonical: `https://yoursite.com/schemes/${schemesId}`,
+                canonical: `https://navview.vercel.app/schemes/${schemesId}`,
             },
         };
     }
