@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props) {
             title: `${schemeName} | ${formattedCategory} Mutual Fund Details | NavView`,
             description: `Check NAV, returns, portfolio, and fund manager details of ${schemeName} under ${formattedCategory} category.`,
             alternates: {
-                canonical: `https://yoursite.com/categories/${categoryName}/${schemesId}`,
+                canonical: `https://navview.vercel.app/categories/${categoryName}/${schemesId}`,
             },
         };
     } catch (error) {
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props) {
             title: "Mutual Fund Scheme | NavView",
             description: "View mutual fund scheme details.",
             alternates: {
-                canonical: `https://yoursite.com/categories/${categoryName}/${schemesId}`,
+                canonical: `https://navview.vercel.app/categories/${categoryName}/${schemesId}`,
             },
         };
     }
