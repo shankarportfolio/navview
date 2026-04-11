@@ -4,7 +4,7 @@ import TopLoader from "./TopLoader";
 import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://yourdomain.com"),
+    metadataBase: new URL("https://navview.vercel.app"),
     alternates: {
         canonical: "./",
     },
